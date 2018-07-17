@@ -11,7 +11,6 @@ describe "Testing the BBC Registration" do
       @bbc_site = BBC_Site.new
       @bbc_site.bbc_homepage.visit_home_page
       @bbc_site.bbc_homepage.click_sign_in_link
-      @bbc_site.bbc_homepage
       @bbc_site.bbc_login.enter_email
       @bbc_site.bbc_login.enter_password
       @bbc_site.bbc_login.click_submit
